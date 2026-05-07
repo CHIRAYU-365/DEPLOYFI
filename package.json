@@ -12,6 +12,11 @@
     "sync:idl": "cd backend && cp target/idl/launchpad.json ../frontend/src/constants/idl.json"
   },
   "devDependencies": {
+    "@marinade.finance/marinade-ts-sdk": "^4.0.3",
     "concurrently": "^8.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
