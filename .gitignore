@@ -1,0 +1,18 @@
+# Node
+node_modules/
+.env
+.env.local
+
+# Rust/Anchor
+backend/target/
+backend/.anchor/
+
+# Frontend build
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDL (auto generated)
+frontend/src/constants/idl.json
